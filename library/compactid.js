@@ -1,0 +1,1 @@
+export function compactid(o=6){let[t,r]=[1e9*Math.random()|0,65536*Math.random()|0],a=4095&Date.now()|8192,n=Array.from({length:o},()=>256*Math.random()|0),e=o=>o.toString(16).padStart(4,0);return`${e(t)}-${e(r)}-${e(a)}-${e(32768*Math.random()|32768)}-${n.map(o=>e(o)).join("")}`.replace(/^-/,"")}export default compactid

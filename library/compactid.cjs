@@ -1,0 +1,1 @@
+function compactid(o=6){let[n,r]=[1e9*Math.random()|0,65536*Math.random()|0],t=4095&Date.now()|8192,a=Array.from({length:o},()=>256*Math.random()|0),m=o=>o.toString(16).padStart(4,0);return`${m(n)}-${m(r)}-${m(t)}-${m(32768*Math.random()|32768)}-${a.map(o=>m(o)).join("")}`.replace(/^-/,"")}module.exports=compactid

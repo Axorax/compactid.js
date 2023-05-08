@@ -1,0 +1,26 @@
+{
+  "name": "compactid",
+  "version": "1.0.0",
+  "description": "Simple library to generate UUIDs",
+  "main": "compactid.js",
+  "exports": {
+    "import": "./compactid.js",
+    "require": "./compactid.cjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axorax/compactid.js.git"
+  },
+  "keywords": [
+    "compactid",
+    "UUID",
+    "random-id"
+  ],
+  "author": "Axorax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axorax/compactid.js/issues"
+  },
+  "homepage": "https://github.com/Axorax/compactid.js#readme"
+}
